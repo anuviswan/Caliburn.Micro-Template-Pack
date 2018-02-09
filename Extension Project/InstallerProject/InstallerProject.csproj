@@ -152,6 +152,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\ItemTemplates\Bootstrapper.MEF\Bootstrapper.MEF.csproj">
+      <Project>{39E02F9B-CD4F-4CFD-94C0-EFC8B09C4C17}</Project>
+      <Name>Bootstrapper.MEF</Name>
+      <VSIXSubPath>ItemTemplates\Caliburn.Micro</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\ItemTemplates\Bootstrapper.SimpleContainer\Bootstrapper.SimpleContainer.csproj">
       <Project>{5C1F7D68-267B-4B6D-B405-4BC35C7F3317}</Project>
       <Name>Bootstrapper.SimpleContainer</Name>
