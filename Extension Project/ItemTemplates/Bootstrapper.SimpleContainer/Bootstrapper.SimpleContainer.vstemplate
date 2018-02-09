@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Bootstrapper.cs</DefaultName>
+    <Name>Bootstrapper With SimpleContainer</Name>
+    <Description>Caliburn.Micro Bootstrapper With SimpleContainer</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Bootstrapper.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
