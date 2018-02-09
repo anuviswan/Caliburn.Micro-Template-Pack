@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Caliburn.Micro Template Pack</Name>
-    <Description>Caliburn.Micro Template Pack for WPF contains a comprehensive collection of Project/Item Templates and Code Snippets for developing WPF application using Caliburn.Micro</Description>
+    <Name>Caliburn.Micro WPF App</Name>
+    <Description>WPF Application with Caliburn.Micro as MVVM Framework</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>

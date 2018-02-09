@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>Caliburn.Micro.Property</Title>
+      <Author>Anu Viswan</Author>
+      <Description>Code snippet for Property and backing field with NotifyOfPropertyChange Invoked.
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>propcm</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>myVar</ID>
+          <ToolTip>myVar</ToolTip>
+          <Default>myVar</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>MyProperty</ID>
+          <ToolTip>MyProperty</ToolTip>
+          <Default>MyProperty</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Object Editable="true">
+          <ID>int</ID>
+          <ToolTip>int</ToolTip>
+          <Default>int</Default>
+          <Function>
+          </Function>
+          <Type>N/A</Type>
+        </Object>
+      </Declarations>
+      <Code Language="csharp" Delimiter="$"><![CDATA[        private $int$ $myVar$;
+
+        public $int$ $MyProperty$
+        {
+            get { return $myVar$; }
+            set
+            {
+                $myVar$ = value;
+                NotifyOfPropertyChange(nameof($MyProperty$));
+            }
+        }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
