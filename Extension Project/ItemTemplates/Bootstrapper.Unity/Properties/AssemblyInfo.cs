@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Bootstrapper.SimpleContainer")]
+[assembly: AssemblyTitle("Bootstrapper.Unity")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Anu Viswan")]
-[assembly: AssemblyProduct("Bootstrapper.SimpleContainer")]
+[assembly: AssemblyProduct("Bootstrapper.Unity")]
 [assembly: AssemblyCopyright("Copyright © Anu Viswan 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5c1f7d68-267b-4b6d-b405-4bc35c7f3317")]
+[assembly: Guid("16752273-acf1-4881-b245-3450ecacda35")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Bootstrapper.SimpleContainer")]
+[assembly: AssemblyTitle("Bootstrapper.MEF")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Company")]
-[assembly: AssemblyProduct("Bootstrapper.SimpleContainer")]
-[assembly: AssemblyCopyright("Copyright © Company 2018")]
+[assembly: AssemblyCompany("Anu Viswan")]
+[assembly: AssemblyProduct("Bootstrapper.MEF")]
+[assembly: AssemblyCopyright("Copyright © Anu Viswan 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

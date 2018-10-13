@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CM.7f49e358-7dc2-4383-a6ee-7cb27a4eb47a" Version="1.0" Language="en-US" Publisher="Anu Viswan"/>
+        <Identity Id="CM.7f49e358-7dc2-4383-a6ee-7cb27a4eb47a" Version="1.1" Language="en-US" Publisher="Anu Viswan"/>
         <DisplayName>Caliburn.Micro Template Pack</DisplayName>
         <Description xml:space="preserve">Caliburn.Micro Template Pack for WPF provides a Collection of Project/Item Templates and Code Snippets for developing WPF application with Caliburn.Micro</Description>
         <MoreInfo>https://github.com/anuviswan/VisualStudioExtensions</MoreInfo>
@@ -21,6 +21,7 @@
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Bootstrapper.SimpleContainer" d:TargetPath="|Bootstrapper.SimpleContainer;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates\jia\" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Bootstrapper.MEF" d:TargetPath="|Bootstrapper.MEF;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Caliburn.Micro.Snippets.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Bootstrapper.Unity" d:TargetPath="|Bootstrapper.Unity;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
 
     </Assets>
     <Prerequisites>

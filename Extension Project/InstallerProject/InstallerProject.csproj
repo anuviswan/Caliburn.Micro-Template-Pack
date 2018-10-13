@@ -51,19 +51,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="packages\Caliburn.Micro.3.2.0.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="packages\Caliburn.Micro.3.2.0\Caliburn.Micro.3.2.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="packages\Caliburn.Micro.3.2.0.nupkg" />
     <None Include="packages\Caliburn.Micro.3.2.0\lib\uap10.0\Caliburn.Micro.Platform.UWP.pri" />
     <None Include="packages\Caliburn.Micro.3.2.0\lib\win81\Caliburn.Micro.Platform.pri" />
     <None Include="packages\Caliburn.Micro.3.2.0\lib\wpa81\Caliburn.Micro.Platform.pri" />
-    <Content Include="packages\Caliburn.Micro.Core.3.2.0.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="packages\Caliburn.Micro.Core.3.2.0\Caliburn.Micro.Core.3.2.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -75,6 +69,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="packages\Caliburn.Micro.Core.3.2.0.nupkg" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
@@ -175,6 +170,13 @@
       <Project>{5C1F7D68-267B-4B6D-B405-4BC35C7F3317}</Project>
       <Name>Bootstrapper.SimpleContainer</Name>
       <VSIXSubPath>ItemTemplates\Caliburn.Micro</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\ItemTemplates\Bootstrapper.Unity\Bootstrapper.Unity.csproj">
+      <Project>{16752273-ACF1-4881-B245-3450ECACDA35}</Project>
+      <Name>Bootstrapper.Unity</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>

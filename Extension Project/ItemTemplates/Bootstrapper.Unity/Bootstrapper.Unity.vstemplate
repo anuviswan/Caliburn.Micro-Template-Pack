@@ -1,0 +1,37 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Bootstrapper With Unity.cs</DefaultName>
+    <Name>Bootstrapper With Unity</Name>
+    <Description>Caliburn.Micro Bootstrapper With Unity</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>Unity.Abstractions, Version=3.3.1.0, Culture=neutral, PublicKeyToken=6D32FF45E0CCC69F</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Unity.Configuration, Version=5.2.5.0, Culture=neutral, PublicKeyToken=6D32FF45E0CCC69F</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Unity.Container, Version=5.8.11.0, Culture=neutral, PublicKeyToken=489B6ACCFAF20EF0</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Unity.Interception, Version=5.5.5.0, Culture=neutral, PublicKeyToken=489B6ACCFAF20EF0</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Unity.Interception.Configuration, Version=5.1.7.0, Culture=neutral, PublicKeyToken=489B6ACCFAF20EF0</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Unity.RegistrationByConvention, Version=2.1.9.0, Culture=neutral, PublicKeyToken=489B6ACCFAF20EF0</Assembly>
+      </Reference>
+      <Reference>
+        <Assembly>Unity.ServiceLocation, Version=2.1.2.0, Culture=neutral, PublicKeyToken=489B6ACCFAF20EF0</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Bootstrapper.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
