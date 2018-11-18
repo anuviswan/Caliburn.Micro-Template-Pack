@@ -14,7 +14,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>InstallerProject</RootNamespace>
-    <AssemblyName>InstallerProject</AssemblyName>
+    <AssemblyName>CaliburnMicroTemplatePack</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -176,7 +176,7 @@
     <ProjectReference Include="..\ItemTemplates\Bootstrapper.Unity\Bootstrapper.Unity.csproj">
       <Project>{16752273-ACF1-4881-B245-3450ECACDA35}</Project>
       <Name>Bootstrapper.Unity</Name>
-      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <VSIXSubPath>ItemTemplates\Caliburn.Micro</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
