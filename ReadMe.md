@@ -17,7 +17,7 @@ Item Templates
 - funcm - Creates function with Guard methods
 
 **Update Ver 1.2**
-Support for Visual Studio 2019
+- Support for Visual Studio 2019
 
 **Update Ver 1.1** 
 - Added Bootstrapper template using Unity
