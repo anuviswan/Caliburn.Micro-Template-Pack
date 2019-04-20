@@ -22,6 +22,6 @@ Item Templates
 **Update Ver 1.1** 
 - Added Bootstrapper template using Unity
 
-**Works with ** : Visual Studio 2019, Visual Studio 2017
+**Works with** : Visual Studio 2019, Visual Studio 2017
 
 Download Link : [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=anuviswan.CaliburnMicroTemplatePack#overview) 
