@@ -18,6 +18,7 @@
     <Assets>
         <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="CM.WPF" d:TargetPath="|CM.WPF;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
         <Asset Type="Caliburn.Micro.Core.3.2.0.nupkg" d:Source="File" Path="Packages\Caliburn.Micro.Core.3.2.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="Caliburn.Micro.3.2.0.nupkg" d:Source="File" Path="Packages\Caliburn.Micro.3.2.0.nupkg" d:VsixSubPath ="Packages"/>
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Bootstrapper.SimpleContainer" d:TargetPath="|Bootstrapper.SimpleContainer;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates\jia\" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Bootstrapper.MEF" d:TargetPath="|Bootstrapper.MEF;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Caliburn.Micro.Snippets.pkgdef" />
